@@ -1,2 +1,21 @@
-Vale (VLE) – A Digital Store of Value
-Vale is a decentralized, peer-to-peer cryptocurrency with a fixed supply of 33.3 million coins, designed as a long-term store of value. It operates on a secure, open-source blockchain that uses a hybrid Proof of Time & Work (PoTW) consensus mechanism, enabling 2-second block times and sub-5-second finality while remaining energy-efficient and ASIC-resistant. The total supply is issued over a 100-year period, with halvings occurring every four years, and 3.3 million VLE allocated to the founder, released linearly over ten years to ensure long-term network support. Built with post-quantum cryptography from launch—using CRYSTALS-Dilithium and SPHINCS+—Vale is designed to remain secure in future computing environments. It runs on consumer-grade hardware, supports global node participation, and emphasizes decentralization, simplicity, and sustainability. The protocol is unlicensed, uncensored, and maintained by its users. Code and documentation are publicly available at github.com/vale-core/vale.
+# Vale (VLE) – A Digital Store of Value
+
+Vale is a decentralized cryptocurrency with a fixed supply of 33.3 million coins, designed as a long-term store of value. It features:
+- 2-second block times, 100,000 TPS capacity
+- Quantum-resistant cryptography from launch
+- Halvings every 4 years over 100 years
+- 3.3 million VLE allocated to the founder, released linearly over 10 years
+- Open, permissionless, and secure
+
+No pre-mine. No pre-sale. No governance tokens.  
+Built for the people.
+
+🔗 **Website**: [vale.org](https://vale.org)  
+📘 **Whitepaper**: [docs/whitepaper.pdf](docs/whitepaper.pdf)  
+🔐 **Founder Address**: `VLE7f8d6e2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d` *(your real address)*
+
+## Quick Start
+```bash
+git clone https://github.com/vale-core/vale
+cd vale
+cargo run

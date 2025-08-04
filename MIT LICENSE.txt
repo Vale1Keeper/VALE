@@ -1,0 +1,14 @@
+
+---
+
+### ✅ 2. `Cargo.toml`  
+*(Rust project config)*
+
+```toml
+[package]
+name = "vale-core"
+version = "0.1.0"
+edition = "2021"
+description = "Vale – A Digital Store of Value"
+license = "MIT"
+repository = "https://github.com/vale-core/vale"
